@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food, LLC</title>
+
+  <!-- Bootstrap 3 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- External CSS (no inline styles used anywhere) -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+
+      <div class="navbar-header">
+        <!-- Hamburger button: ONLY visible on xs (mobile) via visible-xs-block -->
+        <button type="button"
+                class="navbar-toggle collapsed visible-xs-block"
+                data-toggle="collapse"
+                data-target="#mobile-menu"
+                aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Brand: always visible, left-aligned -->
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Dropdown menu: only shown on mobile via visible-xs-block -->
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="nav navbar-nav visible-xs-block mobile-dropdown">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- =================== END NAVBAR =================== -->
+
+
+  <!-- ================= PAGE HEADING ================== -->
+  <div class="container">
+    <h1 id="menu-heading" class="text-center page-heading">Our Menu</h1>
+  </div>
+
+
+  <!-- ===== REQUIRED: Single tall section (col-xs-12) === -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 required-section">
+        <h3 class="text-center">Welcome to Food, LLC</h3>
+        <p>We are a family-owned restaurant dedicated to bringing you the finest meals crafted
+        from locally sourced, seasonal ingredients. Our chefs have decades of experience creating
+        dishes that delight every palate. Whether you are joining us for a quick lunch, a romantic
+        dinner, or a large group celebration, we promise an unforgettable dining experience.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+        laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto
+        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+        aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+        nesciunt. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur
+        adipisci velit sed quia non numquam eius modi tempora incidunt.</p>
+        <p>Ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam quis
+        nostrum exercitationem ullam corporis suscipit laboriosam nisi ut aliquid ex ea commodi
+        consequatur quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+        molestiae consequatur vel illum dolorem eum fugiat quo voluptas nulla pariatur at vero eos
+        et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+        deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+        <p>Sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt
+        mollitia animi id est laborum et dolorum fuga et harum quidem rerum facilis est et expedita
+        distinctio nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo
+        minus id quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor
+        repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+        saepe eveniet ut et voluptates repudiandae sint molestiae non recusandae.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ======= END REQUIRED SECTION ==================== -->
+
+
+  <!-- ===== OPTIONAL: 3 menu sections ================= -->
+  <div class="container">
+    <div class="row">
+
+      <!-- CHICKEN: desktop=4cols, tablet=6cols, mobile=12cols -->
+      <div id="chicken" class="col-md-4 col-sm-6 col-xs-12 menu-section">
+        <h3 class="text-center">Chicken</h3>
+        <p>Our chicken dishes are prepared fresh daily using free-range poultry sourced from local
+        farms. From crispy fried chicken to slow-roasted herb-glazed half chickens, every bite is
+        packed with flavor. We marinate for 24 hours to ensure maximum tenderness and taste. Served
+        with your choice of sides including seasonal vegetables, mashed potatoes, or garden salad.
+        Come in and try our legendary honey-garlic chicken wings — a crowd favorite since 2009!
+        We also offer a spicy buffalo option for those who enjoy an extra kick. Our chefs are
+        constantly experimenting with new recipes to keep the menu fresh and exciting. Ask your
+        server about today's special chicken preparation. Lorem ipsum dolor sit amet consectetur
+        adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
+        ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <a href="#menu-heading">Back to Top</a>
+      </div>
+
+      <!-- BEEF: desktop=4cols, tablet=6cols, mobile=12cols -->
+      <div id="beef" class="col-md-4 col-sm-6 col-xs-12 menu-section">
+        <h3 class="text-center">Beef</h3>
+        <p>We take beef seriously. Our cuts are sourced exclusively from USDA-certified farms and
+        aged to perfection before they ever reach your plate. Whether you prefer a classic
+        cheeseburger stacked high with fresh toppings, a slow-braised short rib falling off the
+        bone, or a sizzling ribeye steak cooked to your exact specification, we have something for
+        every beef lover. Each dish is seasoned with our proprietary spice blend developed over
+        years of culinary refinement. Our beef stew is slow-cooked for eight hours to produce a
+        deep rich broth that warms the soul. Don't miss our Wagyu sliders available only on
+        weekends. Pair any beef dish with our craft sauces made in-house every morning. Lorem ipsum
+        dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>
+        <a href="#menu-heading">Back to Top</a>
+      </div>
+
+      <!-- SUSHI: desktop=4cols, tablet=12cols (full row), mobile=12cols -->
+      <div id="sushi" class="col-md-4 col-sm-12 col-xs-12 menu-section">
+        <h3 class="text-center">Sushi</h3>
+        <p>Our sushi menu is crafted by a classically trained Japanese chef with over 15 years of
+        experience in Tokyo and New York. We use only sushi-grade fish delivered fresh every morning
+        directly from the docks. Choose from an extensive selection of nigiri, sashimi, maki rolls,
+        and our signature specialty rolls created right here at Food, LLC. The Dragon Roll, Rainbow
+        Roll, and our famous Volcano Roll are customer favorites. For the adventurous, try the
+        Omakase experience — let the chef surprise you with a curated selection of the finest pieces
+        available that day. We also offer vegetarian and vegan sushi options that are just as
+        creative and delicious. Premium sake and Japanese whisky pairings available upon request.
+        Reservations recommended for the Omakase experience. Lorem ipsum dolor sit amet consectetur
+        adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
+        ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <a href="#menu-heading">Back to Top</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ======= END OPTIONAL SECTIONS =================== -->
+
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
