@@ -1,0 +1,24 @@
+{
+  "menu_items": [
+    { "category": "L", "name": "Chicken Sandwich", "description": "Grilled chicken with lettuce and tomato.", "price": 9.99, "image": "images/placeholder.png" },
+    { "category": "L", "name": "Caesar Salad", "description": "Romaine, croutons, parmesan.", "price": 7.99, "image": "images/placeholder.png" },
+    { "category": "L", "name": "BLT Wrap", "description": "Bacon, lettuce, tomato in a flour tortilla.", "price": 8.49, "image": "images/placeholder.png" },
+    { "category": "D", "name": "Ribeye Steak", "description": "12oz ribeye with seasonal vegetables.", "price": 28.99, "image": "images/placeholder.png" },
+    { "category": "D", "name": "Pasta Primavera", "description": "Fresh pasta with garden vegetables.", "price": 16.99, "image": "images/placeholder.png" },
+    { "category": "D", "name": "Salmon Fillet", "description": "Pan-seared salmon with lemon butter sauce.", "price": 22.99, "image": "images/placeholder.png" },
+    { "category": "S", "name": "Dragon Roll", "description": "Shrimp tempura, avocado, cucumber.", "price": 13.99, "image": "images/placeholder.png" },
+    { "category": "S", "name": "Rainbow Roll", "description": "Assorted fish over california roll.", "price": 14.99, "image": "images/placeholder.png" },
+    { "category": "S", "name": "Spicy Tuna Roll", "description": "Tuna, spicy mayo, cucumber.", "price": 11.99, "image": "images/placeholder.png" },
+    { "category": "BU", "name": "Classic Burger", "description": "Beef patty, lettuce, tomato, onion.", "price": 10.99, "image": "images/placeholder.png" },
+    { "category": "BU", "name": "Bacon Cheeseburger", "description": "Double patty with bacon and cheese.", "price": 13.49, "image": "images/placeholder.png" },
+    { "category": "BU", "name": "Mushroom Swiss", "description": "Beef patty with mushrooms and swiss.", "price": 11.99, "image": "images/placeholder.png" },
+    { "category": "SW", "name": "Club Sandwich", "description": "Turkey, ham, cheese, triple decker.", "price": 10.49, "image": "images/placeholder.png" },
+    { "category": "SW", "name": "Meatball Sub", "description": "Meatballs in marinara on a hoagie roll.", "price": 9.99, "image": "images/placeholder.png" },
+    { "category": "DE", "name": "Chocolate Lava Cake", "description": "Warm cake with molten chocolate center.", "price": 6.99, "image": "images/placeholder.png" },
+    { "category": "DE", "name": "Cheesecake", "description": "New York style with berry topping.", "price": 5.99, "image": "images/placeholder.png" },
+    { "category": "SP", "name": "Today's Special", "description": "Chef's choice for today.", "price": 17.99, "image": "images/placeholder.png" },
+    { "category": "A",  "name": "Chicken Sandwich", "description": "Grilled chicken with lettuce and tomato.", "price": 9.99, "image": "images/placeholder.png" },
+    { "category": "A",  "name": "Dragon Roll", "description": "Shrimp tempura, avocado, cucumber.", "price": 13.99, "image": "images/placeholder.png" },
+    { "category": "A",  "name": "Classic Burger", "description": "Beef patty, lettuce, tomato, onion.", "price": 10.99, "image": "images/placeholder.png" }
+  ]
+}

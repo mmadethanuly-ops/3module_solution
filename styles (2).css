@@ -1,0 +1,123 @@
+/* ============================================
+   David's Burger Bar - Module 5 Stylesheet
+   ============================================ */
+
+body {
+  padding-top: 70px;
+  background-color: #f8f5f0;
+  font-family: Georgia, serif;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #2c1810;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #f5c842 !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Home tiles */
+.home-tiles {
+  margin-top: 40px;
+}
+
+.tile {
+  margin-bottom: 30px;
+}
+
+.tile a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tile-inner {
+  background-color: #fff;
+  border: 2px solid #e0d5c5;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-height: 180px;
+}
+
+.tile-inner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  border-color: #f5c842;
+}
+
+.tile-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.tile-inner h3 {
+  color: #2c1810;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.tile-inner p {
+  color: #888;
+  font-size: 14px;
+}
+
+.specials-tile .tile-inner {
+  background-color: #fffbee;
+  border-color: #f5c842;
+}
+
+/* Menu page */
+.menu-page {
+  margin-top: 30px;
+}
+
+.menu-heading {
+  font-size: 32px;
+  color: #2c1810;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #f5c842;
+  padding-bottom: 10px;
+}
+
+/* Menu item tiles */
+.menu-item-tile {
+  margin-bottom: 24px;
+}
+
+.menu-item-inner {
+  background-color: #fff;
+  border: 1px solid #e0d5c5;
+  border-radius: 6px;
+  padding: 20px;
+  min-height: 160px;
+}
+
+.menu-item-inner h4 {
+  color: #2c1810;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.menu-item-inner p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.menu-item-inner .price {
+  font-weight: bold;
+  color: #c0392b;
+  font-size: 16px;
+}

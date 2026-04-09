@@ -1,0 +1,36 @@
+<div class="home-tiles row">
+
+  <!-- Menu Tile -->
+  <div class="col-sm-4 col-xs-12 tile">
+    <a href="#" onclick="$dc.loadMenuItems('A');">
+      <div class="tile-inner">
+        <div class="tile-icon">&#127857;</div>
+        <h3>Menu</h3>
+        <p>Browse our full menu</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Specials Tile - uses randomCategoryShortName -->
+  <div class="col-sm-4 col-xs-12 tile specials-tile">
+    <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+      <div class="tile-inner">
+        <div class="tile-icon">&#11088;</div>
+        <h3>Specials</h3>
+        <p>Today's special picks</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Map Tile -->
+  <div class="col-sm-4 col-xs-12 tile">
+    <a href="#" onclick="$dc.loadMenuItems('M');">
+      <div class="tile-inner">
+        <div class="tile-icon">&#128205;</div>
+        <h3>Map</h3>
+        <p>Find us near you</p>
+      </div>
+    </a>
+  </div>
+
+</div>

@@ -1,0 +1,11 @@
+{
+  "categories": [
+    { "name": "Lunch", "short_name": "L" },
+    { "name": "Dinner", "short_name": "D" },
+    { "name": "Sushi", "short_name": "S" },
+    { "name": "Burgers", "short_name": "BU" },
+    { "name": "Sandwiches", "short_name": "SW" },
+    { "name": "Desserts", "short_name": "DE" },
+    { "name": "Specials", "short_name": "SP" }
+  ]
+}
